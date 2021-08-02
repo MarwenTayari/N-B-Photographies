@@ -218,6 +218,7 @@ main ul li a{
 }
 #mainFooter{
     background-color: var(--red);
+    font-size: 18px;
     height: 40px;
     width: 100%;
     position: fixed;
@@ -227,6 +228,11 @@ main ul li a{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#mainFooter p {
+    font-size: 16px;
+    font-style: italic;
 }
 
 @media screen and (min-width: 768px){
