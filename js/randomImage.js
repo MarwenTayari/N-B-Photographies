@@ -10,7 +10,7 @@ let images = JSON.parse(rawImages);
 let randomImage = images[Math.floor(Math.random() * images.length)];
 
 //apply the image as the background of pageContent
-pageContent.style.backgroundImage = `url(/images/${randomImage.filename})`;
+pageContent.style.backgroundImage = `url('images/${randomImage.filename}')`;
 
 if(pictInfo){
     //Empty the pictInfo div
@@ -33,5 +33,4 @@ if(pictInfo){
     pictData.appendChild(pictDataContent);
     pictInfo.appendChild(pictauthor);
     pictInfo.appendChild(pictData);
-
 }
